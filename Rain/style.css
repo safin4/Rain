@@ -1,0 +1,31 @@
+*
+html
+{
+    height: 100%;
+}
+body
+{
+    background: #0D343A;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0d343a), to(#000000));
+    overflow: hidden;
+}
+.drop
+{
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0d343a), to(#ffffff99));
+    width: 1px;
+    height: 89px;
+    position: absolute;
+    bottom: 200px;
+    -webkit-animation: fall 0.63s linear infinite;
+    -moz-animation: fall 0.63s linear infinite;
+}
+@-webkit-keyframes fall {
+    to {
+        margin-top: 900px;
+    }
+}
+@-moz-keyframes fall {
+    to {
+        margin-top: 900px;
+    }
+}
